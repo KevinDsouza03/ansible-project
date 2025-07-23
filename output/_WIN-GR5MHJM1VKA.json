@@ -1,0 +1,1991 @@
+[
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "ADWS",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "AJRouter",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "ALG",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "AppIDSvc",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "Appinfo",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "AppMgmt",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "AppReadiness",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "AppVClient",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "AppXSvc",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "AudioEndpointBuilder",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "Audiosrv",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "AxInstSV",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "BalloonService",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "BFE",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "BITS",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "BrokerInfrastructure",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "bthserv",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "camsvc",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "CaptureService_49890",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "cbdhsvc_49890",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "CDPSvc",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "CDPUserSvc_49890",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "CertPropSvc",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "ClipSVC",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "COMSysApp",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "ConsentUxUserSvc_49890",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "CoreMessagingRegistrar",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "CredentialEnrollmentManagerUserSvc_49890",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "CryptSvc",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "CscService",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "DcomLaunch",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "defragsvc",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "DeviceAssociationBrokerSvc_49890",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "DeviceAssociationService",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "DeviceInstall",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "DevicePickerUserSvc_49890",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "DevicesFlowUserSvc_49890",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "DevQueryBroker",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "Dfs",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "DFSR",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "Dhcp",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "diagnosticshub.standardcollector.service",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "DiagTrack",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "DispBrokerDesktopSvc",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "DmEnrollmentSvc",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "dmwappushservice",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "DNS",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "Dnscache",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "DoSvc",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "dot3svc",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "DPS",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "DsmSvc",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "DsRoleSvc",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "DsSvc",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "EapHost",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "edgeupdate",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "edgeupdatem",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "EFS",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "embeddedmode",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "EntAppSvc",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "EventLog",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "EventSystem",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "fdPHost",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "FDResPub",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "FontCache",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "FrameServer",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "FrameServerMonitor",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "gpsvc",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "GraphicsPerfSvc",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "hidserv",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "HvHost",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "IKEEXT",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "InstallService",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "iphlpsvc",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "IsmServ",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "Kdc",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "KdsSvc",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "KeyIso",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "KPSSVC",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "KtmRm",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "LanmanServer",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "LanmanWorkstation",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "lfsvc",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "LicenseManager",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "lltdsvc",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "lmhosts",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "LSM",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "MapsBroker",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "McpManagementService",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "MDCoreSvc",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "MicrosoftEdgeElevationService",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "mpssvc",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "MSDTC",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "MSiSCSI",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "msiserver",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "NcaSvc",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "NcbService",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "Netlogon",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "Netman",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "netprofm",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "NetSetupSvc",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "NetTcpPortSharing",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "NgcCtnrSvc",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "NgcSvc",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "NlaSvc",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "nsi",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "NTDS",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "NtFrs",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "PcaSvc",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "PerfHost",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "PimIndexMaintenanceSvc_49890",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "pla",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "PlugPlay",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "PolicyAgent",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "Power",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "PrintNotify",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "PrintWorkflowUserSvc_49890",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "ProfSvc",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "PushToInstall",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "QWAVE",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "RasAuto",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "RasMan",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "RemoteAccess",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "RemoteRegistry",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "RmSvc",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "RpcEptMapper",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "RpcLocator",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "RpcSs",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "RSoPProv",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "sacsvr",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "SamSs",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "SCardSvr",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "ScDeviceEnum",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "Schedule",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "SCPolicySvc",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "seclogon",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "SecurityHealthService",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "SEMgrSvc",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "SENS",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "Sense",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "SensorDataService",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "SensorService",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "SensrSvc",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "SessionEnv",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "SgrmBroker",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "SharedAccess",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "ShellHWDetection",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "shpamsvc",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "smphost",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "SNMPTRAP",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "Spooler",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "sppsvc",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "SSDPSRV",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "ssh-agent",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "sshd",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "SstpSvc",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "StateRepository",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "StiSvc",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "StorSvc",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "svsvc",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "swprv",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "SysMain",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "SystemEventsBroker",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "TabletInputService",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "tapisrv",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "TermService",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "Themes",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "TieringEngineService",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "TimeBrokerSvc",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "TokenBroker",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "TrkWks",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "TrustedInstaller",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "tzautoupdate",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "UALSVC",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "UdkUserSvc_49890",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "UevAgentService",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "UmRdpService",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "UnistoreSvc_49890",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "upnphost",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "UserDataSvc_49890",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "UserManager",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "UsoSvc",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "VaultSvc",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "vds",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "VirtioFsSvc",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "vmicguestinterface",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "vmicheartbeat",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "vmickvpexchange",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "vmicshutdown",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "vmictimesync",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "vmicvmsession",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "vmicvss",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "VSS",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "W32Time",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "WaaSMedicSvc",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "WalletService",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "WarpJITSvc",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "WbioSrvc",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "Wcmsvc",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "WdiServiceHost",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "WdiSystemHost",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "WdNisSvc",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "Wecsvc",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "WEPHOSTSVC",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "wercplsupport",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "WerSvc",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "WiaRpc",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "WinDefend",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "WinHttpAutoProxySvc",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "Winmgmt",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "WinRM",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "wisvc",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "wlidsvc",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "WLMS",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "wmiApSrv",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "WMPNetworkSvc",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "WPDBusEnum",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "WpnService",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "WpnUserService_49890",
+        "Status": {
+            "String": "Running",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 4
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "WSearch",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    },
+    {
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "wuauserv",
+        "Status": {
+            "String": "Stopped",
+            "Type": "System.ServiceProcess.ServiceControllerStatus",
+            "Value": 1
+        }
+    }
+]

@@ -1,0 +1,69 @@
+---
+- name: Test Windows Servers
+  hosts: windows
+  remote_user: administrator
+  gather_facts: true
+
+  tasks:
+   - name: Ping server
+     ansible.windows.win_ping:
+
+       # The script creates its own column with HostName, then parses Name and Status from the powershell command for the other columns.    
+   - name: Get all services
+     ansible.windows.win_powershell:
+       script: |
+         Get-Service | Select-Object @{Name="HostName"; Expression= { $env:COMPUTERNAME }}, Name, Status
+     register: result
+
+#   - name: Services to Json
+#     set_fact:
+#       service_list: >-
+#          {{
+#            result.stdout_lines
+#            | map('split', ',')
+#            | map('zip', ['HostName','Name','Status'])
+#            | list
+#          }}
+
+#   - name: Debug
+#     ansible.builtin.debug:
+#       var: ' {{ result.output }} '
+ 
+   - name: Save JSON to file
+     delegate_to: 127.0.0.1
+     ansible.builtin.copy:
+       content: "{{ result.output | to_nice_json }}"
+       dest: "/home/kdsouza/Project/output/_{{ ansible_hostname }}.json"
+   
+
+- name: Test Linux Servers
+  hosts: linux
+  remote_user: administrator
+  gather_facts: true
+  tasks:
+    - name: Ping server
+      ansible.builtin.ping: 
+
+    - name: Get Services
+      ansible.builtin.shell: | 
+        systemctl list-units --type=service --all --no-legend --no-pager --plain \
+        | awk -v hname="$(hostname)" '$1 ~ /\.service$/ {print hname"," $1 "," $4}'
+
+      register: result
+
+    - name: Services to Json
+      set_fact:
+        service_list: >-
+          {{
+            result.stdout_lines
+            | map('split', ',')
+            | map('zip', ['HostName','Name','Status'])
+            | list
+          }}
+
+    - name: Save JSON to file
+      delegate_to: 127.0.0.1
+      ansible.builtin.copy:
+        content: "{{ service_list | to_nice_json }}"
+        dest: "/home/kdsouza/Project/output/_{{ ansible_hostname }}.json"
+   

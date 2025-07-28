@@ -1,2494 +1,1434 @@
 [
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "accounts-daemon.service",
-            "Name"
-        ],
-        [
-            "running",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "alsa-restore.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "alsa-state.service",
-            "Name"
-        ],
-        [
-            "running",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "atd.service",
-            "Name"
-        ],
-        [
-            "running",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "audit-rules.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "auditd.service",
-            "Name"
-        ],
-        [
-            "running",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "auto-cpufreq.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "autofs.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "avahi-daemon.service",
-            "Name"
-        ],
-        [
-            "running",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "blk-availability.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "chronyd.service",
-            "Name"
-        ],
-        [
-            "running",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "cockpit-issue.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "cockpit-session-socket-user.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "cockpit-wsinstance-http.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "cockpit-wsinstance-socket-user.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "cockpit.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "colord.service",
-            "Name"
-        ],
-        [
-            "running",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "cpupower.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "crond.service",
-            "Name"
-        ],
-        [
-            "running",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "cups.service",
-            "Name"
-        ],
-        [
-            "running",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "dbus-broker.service",
-            "Name"
-        ],
-        [
-            "running",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "dm-event.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "dnf-makecache.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "dracut-cmdline.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "dracut-initqueue.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "dracut-mount.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "dracut-pre-mount.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "dracut-pre-pivot.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "dracut-pre-trigger.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "dracut-pre-udev.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "dracut-shutdown-onfailure.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "dracut-shutdown.service",
-            "Name"
-        ],
-        [
-            "exited",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "ebtables.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "emergency.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "fcoe.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "fips-crypto-policy-overlay.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "firewalld.service",
-            "Name"
-        ],
-        [
-            "running",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "fstrim.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "fwupd-refresh.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "fwupd.service",
-            "Name"
-        ],
-        [
-            "running",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "gdm.service",
-            "Name"
-        ],
-        [
-            "running",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "getty@tty1.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "initrd-cleanup.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "initrd-parse-etc.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "initrd-switch-root.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "initrd-udevadm-cleanup-db.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "insights-client-boot.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "ip6tables.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "ipset.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "iptables.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "irqbalance.service",
-            "Name"
-        ],
-        [
-            "running",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "iscsi-init.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "iscsi-onboot.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "iscsi-shutdown.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "iscsi-starter.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "iscsi.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "iscsid.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "iscsiuio.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "kdump.service",
-            "Name"
-        ],
-        [
-            "exited",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "kmod-static-nodes.service",
-            "Name"
-        ],
-        [
-            "exited",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "ldconfig.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "libstoragemgmt.service",
-            "Name"
-        ],
-        [
-            "running",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "logrotate.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "lvm2-activation-early.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "lvm2-lvmpolld.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "lvm2-monitor.service",
-            "Name"
-        ],
-        [
-            "exited",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "mcelog.service",
-            "Name"
-        ],
-        [
-            "running",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "mdmonitor.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "ModemManager.service",
-            "Name"
-        ],
-        [
-            "running",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "modprobe@configfs.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "modprobe@dm_mod.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "modprobe@dm_multipath.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "modprobe@drm.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "modprobe@efi_pstore.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "modprobe@fuse.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "modprobe@loop.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "multipathd.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "NetworkManager-wait-online.service",
-            "Name"
-        ],
-        [
-            "exited",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "NetworkManager.service",
-            "Name"
-        ],
-        [
-            "running",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "nslcd.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "ntpd.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "ntpdate.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "nvmefc-boot-connections.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "pcscd.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "plocate-updatedb.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "plymouth-quit-wait.service",
-            "Name"
-        ],
-        [
-            "exited",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "plymouth-quit.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "plymouth-read-write.service",
-            "Name"
-        ],
-        [
-            "exited",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "plymouth-start.service",
-            "Name"
-        ],
-        [
-            "exited",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "plymouth-switch-root.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "polkit.service",
-            "Name"
-        ],
-        [
-            "running",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "power-profiles-daemon.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "qemu-guest-agent.service",
-            "Name"
-        ],
-        [
-            "running",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "raid-check.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "rbdmap.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "rc-local.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "rescue.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "rhsm.service",
-            "Name"
-        ],
-        [
-            "running",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "rhsmcertd.service",
-            "Name"
-        ],
-        [
-            "running",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "rsyslog.service",
-            "Name"
-        ],
-        [
-            "running",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "rtkit-daemon.service",
-            "Name"
-        ],
-        [
-            "running",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "selinux-autorelabel-mark.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "smartd.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "sntp.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "spice-vdagentd.service",
-            "Name"
-        ],
-        [
-            "running",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "ssh-host-keys-migration.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "sshd-keygen@ecdsa.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "sshd-keygen@ed25519.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "sshd-keygen@rsa.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "sshd.service",
-            "Name"
-        ],
-        [
-            "running",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "sssd-kcm.service",
-            "Name"
-        ],
-        [
-            "running",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "sssd.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "switcheroo-control.service",
-            "Name"
-        ],
-        [
-            "running",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "syslog.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-ask-password-console.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-ask-password-plymouth.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-ask-password-wall.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-battery-check.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-binfmt.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-boot-random-seed.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-confext.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-firstboot.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-fsck-root.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-hibernate-clear.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-hibernate-resume.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-hostnamed.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-hwdb-update.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-initctl.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-journal-catalog-update.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-journal-flush.service",
-            "Name"
-        ],
-        [
-            "exited",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-journald.service",
-            "Name"
-        ],
-        [
-            "running",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-logind.service",
-            "Name"
-        ],
-        [
-            "running",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-machine-id-commit.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-modules-load.service",
-            "Name"
-        ],
-        [
-            "exited",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-network-generator.service",
-            "Name"
-        ],
-        [
-            "exited",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-oomd.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-pcrmachine.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-pcrphase-initrd.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-pcrphase-sysinit.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-pcrphase.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-pstore.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-quotacheck-root.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-random-seed.service",
-            "Name"
-        ],
-        [
-            "exited",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-remount-fs.service",
-            "Name"
-        ],
-        [
-            "exited",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-repart.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-rfkill.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-soft-reboot.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-sysctl.service",
-            "Name"
-        ],
-        [
-            "exited",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-sysext.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-sysusers.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-timesyncd.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-tmpfiles-clean.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-tmpfiles-setup-dev-early.service",
-            "Name"
-        ],
-        [
-            "exited",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-tmpfiles-setup-dev.service",
-            "Name"
-        ],
-        [
-            "exited",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-tmpfiles-setup.service",
-            "Name"
-        ],
-        [
-            "exited",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-tpm2-setup-early.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-tpm2-setup.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-udev-load-credentials.service",
-            "Name"
-        ],
-        [
-            "exited",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-udev-settle.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-udev-trigger.service",
-            "Name"
-        ],
-        [
-            "exited",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-udevd.service",
-            "Name"
-        ],
-        [
-            "running",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-update-done.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-update-utmp-runlevel.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-update-utmp.service",
-            "Name"
-        ],
-        [
-            "exited",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-user-sessions.service",
-            "Name"
-        ],
-        [
-            "exited",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-userdbd.service",
-            "Name"
-        ],
-        [
-            "running",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "systemd-vconsole-setup.service",
-            "Name"
-        ],
-        [
-            "exited",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "tlp.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "tuned-ppd.service",
-            "Name"
-        ],
-        [
-            "running",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "tuned.service",
-            "Name"
-        ],
-        [
-            "running",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "udisks2.service",
-            "Name"
-        ],
-        [
-            "running",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "upower.service",
-            "Name"
-        ],
-        [
-            "running",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "user-runtime-dir@1000.service",
-            "Name"
-        ],
-        [
-            "exited",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "user@1000.service",
-            "Name"
-        ],
-        [
-            "running",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "vgauthd.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "vmtoolsd.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "wpa_supplicant.service",
-            "Name"
-        ],
-        [
-            "running",
-            "Status"
-        ]
-    ],
-    [
-        [
-            "rhel-vm-ansible",
-            "HostName"
-        ],
-        [
-            "ypbind.service",
-            "Name"
-        ],
-        [
-            "dead",
-            "Status"
-        ]
-    ]
+    {
+        "active": "active",
+        "description": "Accounts Service",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "running",
+        "unit": "accounts-daemon.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Save/Restore Sound Card State",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "alsa-restore.service"
+    },
+    {
+        "active": "active",
+        "description": "Manage Sound Card State (restore and store)",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "running",
+        "unit": "alsa-state.service"
+    },
+    {
+        "active": "active",
+        "description": "Deferred execution scheduler",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "running",
+        "unit": "atd.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Load Audit Rules",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "audit-rules.service"
+    },
+    {
+        "active": "active",
+        "description": "Security Audit Logging Service",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "running",
+        "unit": "auditd.service"
+    },
+    {
+        "active": "inactive",
+        "description": "auto-cpufreq.service",
+        "hostname": "rhel-vm-ansible",
+        "load": "not-found",
+        "sub": "dead",
+        "unit": "auto-cpufreq.service"
+    },
+    {
+        "active": "inactive",
+        "description": "autofs.service",
+        "hostname": "rhel-vm-ansible",
+        "load": "not-found",
+        "sub": "dead",
+        "unit": "autofs.service"
+    },
+    {
+        "active": "active",
+        "description": "Avahi mDNS/DNS-SD Stack",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "running",
+        "unit": "avahi-daemon.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Availability of block devices",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "blk-availability.service"
+    },
+    {
+        "active": "active",
+        "description": "NTP client/server",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "running",
+        "unit": "chronyd.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Cockpit issue updater service",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "cockpit-issue.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Dynamic user for /run/cockpit/session socket",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "cockpit-session-socket-user.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Cockpit Web Service http instance",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "cockpit-wsinstance-http.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Dynamic user for /run/cockpit/wsinstance/ sockets",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "cockpit-wsinstance-socket-user.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Cockpit Web Service",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "cockpit.service"
+    },
+    {
+        "active": "active",
+        "description": "Manage, Install and Generate Color Profiles",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "running",
+        "unit": "colord.service"
+    },
+    {
+        "active": "inactive",
+        "description": "cpupower.service",
+        "hostname": "rhel-vm-ansible",
+        "load": "not-found",
+        "sub": "dead",
+        "unit": "cpupower.service"
+    },
+    {
+        "active": "active",
+        "description": "Command Scheduler",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "running",
+        "unit": "crond.service"
+    },
+    {
+        "active": "active",
+        "description": "CUPS Scheduler",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "running",
+        "unit": "cups.service"
+    },
+    {
+        "active": "active",
+        "description": "D-Bus System Message Bus",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "running",
+        "unit": "dbus-broker.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Device-mapper event daemon",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "dm-event.service"
+    },
+    {
+        "active": "inactive",
+        "description": "dnf makecache",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "dnf-makecache.service"
+    },
+    {
+        "active": "inactive",
+        "description": "dracut cmdline hook",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "dracut-cmdline.service"
+    },
+    {
+        "active": "inactive",
+        "description": "dracut initqueue hook",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "dracut-initqueue.service"
+    },
+    {
+        "active": "inactive",
+        "description": "dracut mount hook",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "dracut-mount.service"
+    },
+    {
+        "active": "inactive",
+        "description": "dracut pre-mount hook",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "dracut-pre-mount.service"
+    },
+    {
+        "active": "inactive",
+        "description": "dracut pre-pivot and cleanup hook",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "dracut-pre-pivot.service"
+    },
+    {
+        "active": "inactive",
+        "description": "dracut pre-trigger hook",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "dracut-pre-trigger.service"
+    },
+    {
+        "active": "inactive",
+        "description": "dracut pre-udev hook",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "dracut-pre-udev.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Service executing upon dracut-shutdown failure to perform cleanup",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "dracut-shutdown-onfailure.service"
+    },
+    {
+        "active": "active",
+        "description": "Restore /run/initramfs on shutdown",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "exited",
+        "unit": "dracut-shutdown.service"
+    },
+    {
+        "active": "inactive",
+        "description": "ebtables.service",
+        "hostname": "rhel-vm-ansible",
+        "load": "not-found",
+        "sub": "dead",
+        "unit": "ebtables.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Emergency Shell",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "emergency.service"
+    },
+    {
+        "active": "inactive",
+        "description": "fcoe.service",
+        "hostname": "rhel-vm-ansible",
+        "load": "not-found",
+        "sub": "dead",
+        "unit": "fcoe.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Bind-mount FIPS crypto-policy in FIPS mode",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "fips-crypto-policy-overlay.service"
+    },
+    {
+        "active": "active",
+        "description": "firewalld - dynamic firewall daemon",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "running",
+        "unit": "firewalld.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Discard unused blocks on filesystems from /etc/fstab",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "fstrim.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Refresh fwupd metadata and update motd",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "fwupd-refresh.service"
+    },
+    {
+        "active": "active",
+        "description": "Firmware update daemon",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "running",
+        "unit": "fwupd.service"
+    },
+    {
+        "active": "active",
+        "description": "GNOME Display Manager",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "running",
+        "unit": "gdm.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Getty on tty1",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "getty@tty1.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Cleaning Up and Shutting Down Daemons",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "initrd-cleanup.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Mountpoints Configured in the Real Root",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "initrd-parse-etc.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Switch Root",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "initrd-switch-root.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Cleanup udev Database",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "initrd-udevadm-cleanup-db.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Run Insights Client at boot",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "insights-client-boot.service"
+    },
+    {
+        "active": "inactive",
+        "description": "ip6tables.service",
+        "hostname": "rhel-vm-ansible",
+        "load": "not-found",
+        "sub": "dead",
+        "unit": "ip6tables.service"
+    },
+    {
+        "active": "inactive",
+        "description": "ipset.service",
+        "hostname": "rhel-vm-ansible",
+        "load": "not-found",
+        "sub": "dead",
+        "unit": "ipset.service"
+    },
+    {
+        "active": "inactive",
+        "description": "iptables.service",
+        "hostname": "rhel-vm-ansible",
+        "load": "not-found",
+        "sub": "dead",
+        "unit": "iptables.service"
+    },
+    {
+        "active": "active",
+        "description": "irqbalance daemon",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "running",
+        "unit": "irqbalance.service"
+    },
+    {
+        "active": "inactive",
+        "description": "One time configuration for iscsi.service",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "iscsi-init.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Special handling of early boot iSCSI sessions",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "iscsi-onboot.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Logout off all iSCSI sessions on shutdown",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "iscsi-shutdown.service"
+    },
+    {
+        "active": "inactive",
+        "description": "iscsi-starter.service",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "iscsi-starter.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Login and scanning of iSCSI devices",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "iscsi.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Open-iSCSI",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "iscsid.service"
+    },
+    {
+        "active": "inactive",
+        "description": "iSCSI UserSpace I/O driver",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "iscsiuio.service"
+    },
+    {
+        "active": "active",
+        "description": "Crash recovery kernel arming",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "exited",
+        "unit": "kdump.service"
+    },
+    {
+        "active": "active",
+        "description": "Create List of Static Device Nodes",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "exited",
+        "unit": "kmod-static-nodes.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Rebuild Dynamic Linker Cache",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "ldconfig.service"
+    },
+    {
+        "active": "active",
+        "description": "libstoragemgmt plug-in server daemon",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "running",
+        "unit": "libstoragemgmt.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Rotate log files",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "logrotate.service"
+    },
+    {
+        "active": "inactive",
+        "description": "lvm2-activation-early.service",
+        "hostname": "rhel-vm-ansible",
+        "load": "not-found",
+        "sub": "dead",
+        "unit": "lvm2-activation-early.service"
+    },
+    {
+        "active": "inactive",
+        "description": "LVM2 poll daemon",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "lvm2-lvmpolld.service"
+    },
+    {
+        "active": "active",
+        "description": "Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "exited",
+        "unit": "lvm2-monitor.service"
+    },
+    {
+        "active": "active",
+        "description": "Machine Check Exception Logging Daemon",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "running",
+        "unit": "mcelog.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Software RAID monitoring and management",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "mdmonitor.service"
+    },
+    {
+        "active": "active",
+        "description": "Modem Manager",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "running",
+        "unit": "ModemManager.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Load Kernel Module configfs",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "modprobe@configfs.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Load Kernel Module dm_mod",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "modprobe@dm_mod.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Load Kernel Module dm_multipath",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "modprobe@dm_multipath.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Load Kernel Module drm",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "modprobe@drm.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Load Kernel Module efi_pstore",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "modprobe@efi_pstore.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Load Kernel Module fuse",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "modprobe@fuse.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Load Kernel Module loop",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "modprobe@loop.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Device-Mapper Multipath Device Controller",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "multipathd.service"
+    },
+    {
+        "active": "active",
+        "description": "Network Manager Wait Online",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "exited",
+        "unit": "NetworkManager-wait-online.service"
+    },
+    {
+        "active": "active",
+        "description": "Network Manager",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "running",
+        "unit": "NetworkManager.service"
+    },
+    {
+        "active": "inactive",
+        "description": "nslcd.service",
+        "hostname": "rhel-vm-ansible",
+        "load": "not-found",
+        "sub": "dead",
+        "unit": "nslcd.service"
+    },
+    {
+        "active": "inactive",
+        "description": "ntpd.service",
+        "hostname": "rhel-vm-ansible",
+        "load": "not-found",
+        "sub": "dead",
+        "unit": "ntpd.service"
+    },
+    {
+        "active": "inactive",
+        "description": "ntpdate.service",
+        "hostname": "rhel-vm-ansible",
+        "load": "not-found",
+        "sub": "dead",
+        "unit": "ntpdate.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Auto-connect to subsystems on FC-NVME devices found during boot",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "nvmefc-boot-connections.service"
+    },
+    {
+        "active": "inactive",
+        "description": "PC/SC Smart Card Daemon",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "pcscd.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Update the plocate database",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "plocate-updatedb.service"
+    },
+    {
+        "active": "active",
+        "description": "Hold until boot process finishes up",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "exited",
+        "unit": "plymouth-quit-wait.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Terminate Plymouth Boot Screen",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "plymouth-quit.service"
+    },
+    {
+        "active": "active",
+        "description": "Tell Plymouth To Write Out Runtime Data",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "exited",
+        "unit": "plymouth-read-write.service"
+    },
+    {
+        "active": "active",
+        "description": "Show Plymouth Boot Screen",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "exited",
+        "unit": "plymouth-start.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Plymouth switch root service",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "plymouth-switch-root.service"
+    },
+    {
+        "active": "active",
+        "description": "Authorization Manager",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "running",
+        "unit": "polkit.service"
+    },
+    {
+        "active": "inactive",
+        "description": "power-profiles-daemon.service",
+        "hostname": "rhel-vm-ansible",
+        "load": "not-found",
+        "sub": "dead",
+        "unit": "power-profiles-daemon.service"
+    },
+    {
+        "active": "active",
+        "description": "QEMU Guest Agent",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "running",
+        "unit": "qemu-guest-agent.service"
+    },
+    {
+        "active": "inactive",
+        "description": "RAID setup health check",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "raid-check.service"
+    },
+    {
+        "active": "inactive",
+        "description": "rbdmap.service",
+        "hostname": "rhel-vm-ansible",
+        "load": "not-found",
+        "sub": "dead",
+        "unit": "rbdmap.service"
+    },
+    {
+        "active": "inactive",
+        "description": "/etc/rc.d/rc.local Compatibility",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "rc-local.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Rescue Shell",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "rescue.service"
+    },
+    {
+        "active": "active",
+        "description": "Enable periodic update of entitlement certificates.",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "running",
+        "unit": "rhsmcertd.service"
+    },
+    {
+        "active": "active",
+        "description": "System Logging Service",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "running",
+        "unit": "rsyslog.service"
+    },
+    {
+        "active": "active",
+        "description": "RealtimeKit Scheduling Policy Service",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "running",
+        "unit": "rtkit-daemon.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Mark the need to relabel after reboot",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "selinux-autorelabel-mark.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Self Monitoring and Reporting Technology (SMART) Daemon",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "smartd.service"
+    },
+    {
+        "active": "inactive",
+        "description": "sntp.service",
+        "hostname": "rhel-vm-ansible",
+        "load": "not-found",
+        "sub": "dead",
+        "unit": "sntp.service"
+    },
+    {
+        "active": "active",
+        "description": "Agent daemon for Spice guests",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "running",
+        "unit": "spice-vdagentd.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Update OpenSSH host key permissions",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "ssh-host-keys-migration.service"
+    },
+    {
+        "active": "inactive",
+        "description": "OpenSSH ecdsa Server Key Generation",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "sshd-keygen@ecdsa.service"
+    },
+    {
+        "active": "inactive",
+        "description": "OpenSSH ed25519 Server Key Generation",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "sshd-keygen@ed25519.service"
+    },
+    {
+        "active": "inactive",
+        "description": "OpenSSH rsa Server Key Generation",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "sshd-keygen@rsa.service"
+    },
+    {
+        "active": "active",
+        "description": "OpenSSH server daemon",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "running",
+        "unit": "sshd.service"
+    },
+    {
+        "active": "inactive",
+        "description": "SSSD Kerberos Cache Manager",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "sssd-kcm.service"
+    },
+    {
+        "active": "inactive",
+        "description": "System Security Services Daemon",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "sssd.service"
+    },
+    {
+        "active": "active",
+        "description": "Switcheroo Control Proxy service",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "running",
+        "unit": "switcheroo-control.service"
+    },
+    {
+        "active": "inactive",
+        "description": "syslog.service",
+        "hostname": "rhel-vm-ansible",
+        "load": "not-found",
+        "sub": "dead",
+        "unit": "syslog.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Dispatch Password Requests to Console",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "systemd-ask-password-console.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Forward Password Requests to Plymouth",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "systemd-ask-password-plymouth.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Forward Password Requests to Wall",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "systemd-ask-password-wall.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Check battery level during early boot",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "systemd-battery-check.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Set Up Additional Binary Formats",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "systemd-binfmt.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Update Boot Loader Random Seed",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "systemd-boot-random-seed.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Merge System Configuration Images into /etc/",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "systemd-confext.service"
+    },
+    {
+        "active": "inactive",
+        "description": "First Boot Wizard",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "systemd-firstboot.service"
+    },
+    {
+        "active": "inactive",
+        "description": "File System Check on Root Device",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "systemd-fsck-root.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Clear Stale Hibernate Storage Info",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "systemd-hibernate-clear.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Resume from hibernation",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "systemd-hibernate-resume.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Hostname Service",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "systemd-hostnamed.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Rebuild Hardware Database",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "systemd-hwdb-update.service"
+    },
+    {
+        "active": "inactive",
+        "description": "initctl Compatibility Daemon",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "systemd-initctl.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Rebuild Journal Catalog",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "systemd-journal-catalog-update.service"
+    },
+    {
+        "active": "active",
+        "description": "Flush Journal to Persistent Storage",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "exited",
+        "unit": "systemd-journal-flush.service"
+    },
+    {
+        "active": "active",
+        "description": "Journal Service",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "running",
+        "unit": "systemd-journald.service"
+    },
+    {
+        "active": "active",
+        "description": "User Login Management",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "running",
+        "unit": "systemd-logind.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Save Transient machine-id to Disk",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "systemd-machine-id-commit.service"
+    },
+    {
+        "active": "active",
+        "description": "Load Kernel Modules",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "exited",
+        "unit": "systemd-modules-load.service"
+    },
+    {
+        "active": "active",
+        "description": "Generate network units from Kernel command line",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "exited",
+        "unit": "systemd-network-generator.service"
+    },
+    {
+        "active": "inactive",
+        "description": "systemd-oomd.service",
+        "hostname": "rhel-vm-ansible",
+        "load": "not-found",
+        "sub": "dead",
+        "unit": "systemd-oomd.service"
+    },
+    {
+        "active": "inactive",
+        "description": "TPM PCR Machine ID Measurement",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "systemd-pcrmachine.service"
+    },
+    {
+        "active": "inactive",
+        "description": "TPM PCR Barrier (initrd)",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "systemd-pcrphase-initrd.service"
+    },
+    {
+        "active": "inactive",
+        "description": "TPM PCR Barrier (Initialization)",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "systemd-pcrphase-sysinit.service"
+    },
+    {
+        "active": "inactive",
+        "description": "TPM PCR Barrier (User)",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "systemd-pcrphase.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Platform Persistent Storage Archival",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "systemd-pstore.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Root File System Quota Check",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "systemd-quotacheck-root.service"
+    },
+    {
+        "active": "active",
+        "description": "Load/Save OS Random Seed",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "exited",
+        "unit": "systemd-random-seed.service"
+    },
+    {
+        "active": "active",
+        "description": "Remount Root and Kernel File Systems",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "exited",
+        "unit": "systemd-remount-fs.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Repartition Root Disk",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "systemd-repart.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Load/Save RF Kill Switch Status",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "systemd-rfkill.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Reboot System Userspace",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "systemd-soft-reboot.service"
+    },
+    {
+        "active": "active",
+        "description": "Apply Kernel Variables",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "exited",
+        "unit": "systemd-sysctl.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Merge System Extension Images into /usr/ and /opt/",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "systemd-sysext.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Create System Users",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "systemd-sysusers.service"
+    },
+    {
+        "active": "inactive",
+        "description": "systemd-timesyncd.service",
+        "hostname": "rhel-vm-ansible",
+        "load": "not-found",
+        "sub": "dead",
+        "unit": "systemd-timesyncd.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Cleanup of Temporary Directories",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "systemd-tmpfiles-clean.service"
+    },
+    {
+        "active": "active",
+        "description": "Create Static Device Nodes in /dev gracefully",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "exited",
+        "unit": "systemd-tmpfiles-setup-dev-early.service"
+    },
+    {
+        "active": "active",
+        "description": "Create Static Device Nodes in /dev",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "exited",
+        "unit": "systemd-tmpfiles-setup-dev.service"
+    },
+    {
+        "active": "active",
+        "description": "Create System Files and Directories",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "exited",
+        "unit": "systemd-tmpfiles-setup.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Early TPM SRK Setup",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "systemd-tpm2-setup-early.service"
+    },
+    {
+        "active": "inactive",
+        "description": "TPM SRK Setup",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "systemd-tpm2-setup.service"
+    },
+    {
+        "active": "active",
+        "description": "Load udev Rules from Credentials",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "exited",
+        "unit": "systemd-udev-load-credentials.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Wait for udev To Complete Device Initialization",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "systemd-udev-settle.service"
+    },
+    {
+        "active": "active",
+        "description": "Coldplug All udev Devices",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "exited",
+        "unit": "systemd-udev-trigger.service"
+    },
+    {
+        "active": "active",
+        "description": "Rule-based Manager for Device Events and Files",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "running",
+        "unit": "systemd-udevd.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Update is Completed",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "systemd-update-done.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Record Runlevel Change in UTMP",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "systemd-update-utmp-runlevel.service"
+    },
+    {
+        "active": "active",
+        "description": "Record System Boot/Shutdown in UTMP",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "exited",
+        "unit": "systemd-update-utmp.service"
+    },
+    {
+        "active": "active",
+        "description": "Permit User Sessions",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "exited",
+        "unit": "systemd-user-sessions.service"
+    },
+    {
+        "active": "active",
+        "description": "User Database Manager",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "running",
+        "unit": "systemd-userdbd.service"
+    },
+    {
+        "active": "active",
+        "description": "Virtual Console Setup",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "exited",
+        "unit": "systemd-vconsole-setup.service"
+    },
+    {
+        "active": "inactive",
+        "description": "tlp.service",
+        "hostname": "rhel-vm-ansible",
+        "load": "not-found",
+        "sub": "dead",
+        "unit": "tlp.service"
+    },
+    {
+        "active": "active",
+        "description": "PPD-to-TuneD API Translation Daemon",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "running",
+        "unit": "tuned-ppd.service"
+    },
+    {
+        "active": "active",
+        "description": "Dynamic System Tuning Daemon",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "running",
+        "unit": "tuned.service"
+    },
+    {
+        "active": "active",
+        "description": "Disk Manager",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "running",
+        "unit": "udisks2.service"
+    },
+    {
+        "active": "active",
+        "description": "Daemon for power management",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "running",
+        "unit": "upower.service"
+    },
+    {
+        "active": "active",
+        "description": "User Runtime Directory /run/user/1000",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "exited",
+        "unit": "user-runtime-dir@1000.service"
+    },
+    {
+        "active": "active",
+        "description": "User Runtime Directory /run/user/42",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "exited",
+        "unit": "user-runtime-dir@42.service"
+    },
+    {
+        "active": "active",
+        "description": "User Manager for UID 1000",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "running",
+        "unit": "user@1000.service"
+    },
+    {
+        "active": "active",
+        "description": "User Manager for UID 42",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "running",
+        "unit": "user@42.service"
+    },
+    {
+        "active": "inactive",
+        "description": "VGAuth Service for open-vm-tools",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "vgauthd.service"
+    },
+    {
+        "active": "inactive",
+        "description": "Service for virtual machines hosted on VMware",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "dead",
+        "unit": "vmtoolsd.service"
+    },
+    {
+        "active": "active",
+        "description": "WPA supplicant",
+        "hostname": "rhel-vm-ansible",
+        "load": "loaded",
+        "sub": "running",
+        "unit": "wpa_supplicant.service"
+    },
+    {
+        "active": "inactive",
+        "description": "ypbind.service",
+        "hostname": "rhel-vm-ansible",
+        "load": "not-found",
+        "sub": "dead",
+        "unit": "ypbind.service"
+    }
 ]

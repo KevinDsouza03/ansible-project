@@ -12,7 +12,7 @@
    - name: Get all services
      ansible.windows.win_powershell:
        script: |
-         Get-Service | Select-Object @{Name="HostName"; Expression= { $env:COMPUTERNAME }}, Name, Status | ConvertTo-Json -Depth 3
+         Get-Service | Select-Object @{Name="HostName"; Expression= { $env:COMPUTERNAME }}, DisplayName, Name, @{  Name = "Status"; Expression= { $_.Status.ToString() } } | ConvertTo-Json -Depth 3
      register: result
 
 #   - name: Services to Json

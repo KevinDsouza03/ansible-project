@@ -313,14 +313,6 @@
     },
     {
         "active": "active",
-        "description": "Firmware update daemon",
-        "hostname": "rhel-vm-ansible",
-        "load": "loaded",
-        "sub": "running",
-        "unit": "fwupd.service"
-    },
-    {
-        "active": "active",
         "description": "GNOME Display Manager",
         "hostname": "rhel-vm-ansible",
         "load": "loaded",

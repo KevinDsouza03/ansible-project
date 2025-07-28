@@ -1,1037 +1,1328 @@
 [
     {
+        "DisplayName": "Active Directory Web Services",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "ADWS",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "AllJoyn Router Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "AJRouter",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Application Layer Gateway Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "ALG",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Application Identity",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "AppIDSvc",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Application Information",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "Appinfo",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Application Management",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "AppMgmt",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "App Readiness",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "AppReadiness",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Microsoft App-V Client",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "AppVClient",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "AppX Deployment Service (AppXSVC)",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "AppXSvc",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Windows Audio Endpoint Builder",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "AudioEndpointBuilder",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Windows Audio",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "Audiosrv",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "ActiveX Installer (AxInstSV)",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "AxInstSV",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "BalloonService",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "BalloonService",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Base Filtering Engine",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "BFE",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Background Intelligent Transfer Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "BITS",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Background Tasks Infrastructure Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "BrokerInfrastructure",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Bluetooth Support Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "bthserv",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Capability Access Manager Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "camsvc",
-        "Status": 1
+        "Status": "Running"
     },
     {
+        "DisplayName": "CaptureService_21c4b1",
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "CaptureService_21c4b1",
+        "Status": "Stopped"
+    },
+    {
+        "DisplayName": "Clipboard User Service_21c4b1",
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "cbdhsvc_21c4b1",
+        "Status": "Running"
+    },
+    {
+        "DisplayName": "Connected Devices Platform Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "CDPSvc",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Connected Devices Platform User Service_21c4b1",
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "CDPUserSvc_21c4b1",
+        "Status": "Running"
+    },
+    {
+        "DisplayName": "Certificate Propagation",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "CertPropSvc",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Client License Service (ClipSVC)",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "ClipSVC",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "COM+ System Application",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "COMSysApp",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "ConsentUX User Service_21c4b1",
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "ConsentUxUserSvc_21c4b1",
+        "Status": "Stopped"
+    },
+    {
+        "DisplayName": "CoreMessaging",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "CoreMessagingRegistrar",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "CredentialEnrollmentManagerUserSvc_21c4b1",
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "CredentialEnrollmentManagerUserSvc_21c4b1",
+        "Status": "Stopped"
+    },
+    {
+        "DisplayName": "Cryptographic Services",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "CryptSvc",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Offline Files",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "CscService",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "DCOM Server Process Launcher",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "DcomLaunch",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Optimize drives",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "defragsvc",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "DeviceAssociationBroker_21c4b1",
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "DeviceAssociationBrokerSvc_21c4b1",
+        "Status": "Stopped"
+    },
+    {
+        "DisplayName": "Device Association Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "DeviceAssociationService",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Device Install Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "DeviceInstall",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "DevicePicker_21c4b1",
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "DevicePickerUserSvc_21c4b1",
+        "Status": "Stopped"
+    },
+    {
+        "DisplayName": "DevicesFlow_21c4b1",
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "DevicesFlowUserSvc_21c4b1",
+        "Status": "Stopped"
+    },
+    {
+        "DisplayName": "DevQuery Background Discovery Broker",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "DevQueryBroker",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "DFS Namespace",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "Dfs",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "DFS Replication",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "DFSR",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "DHCP Client",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "Dhcp",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Microsoft (R) Diagnostics Hub Standard Collector Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "diagnosticshub.standardcollector.service",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Connected User Experiences and Telemetry",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "DiagTrack",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Display Policy Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "DispBrokerDesktopSvc",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Device Management Enrollment Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "DmEnrollmentSvc",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Device Management Wireless Application Protocol (WAP) Push message Routing Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "dmwappushservice",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "DNS Server",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "DNS",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "DNS Client",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "Dnscache",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Delivery Optimization",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "DoSvc",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Wired AutoConfig",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "dot3svc",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Diagnostic Policy Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "DPS",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Device Setup Manager",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "DsmSvc",
-        "Status": 4
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "DS Role Server",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "DsRoleSvc",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Data Sharing Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "DsSvc",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Extensible Authentication Protocol",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "EapHost",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Microsoft Edge Update Service (edgeupdate)",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "edgeupdate",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Microsoft Edge Update Service (edgeupdatem)",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "edgeupdatem",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Encrypting File System (EFS)",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "EFS",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Embedded Mode",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "embeddedmode",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Enterprise App Management Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "EntAppSvc",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Windows Event Log",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "EventLog",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "COM+ Event System",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "EventSystem",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Function Discovery Provider Host",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "fdPHost",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Function Discovery Resource Publication",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "FDResPub",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Windows Font Cache Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "FontCache",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Windows Camera Frame Server",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "FrameServer",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Windows Camera Frame Server Monitor",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "FrameServerMonitor",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Group Policy Client",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "gpsvc",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "GraphicsPerfSvc",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "GraphicsPerfSvc",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Human Interface Device Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "hidserv",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "HV Host Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "HvHost",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "IKE and AuthIP IPsec Keying Modules",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "IKEEXT",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Microsoft Store Install Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "InstallService",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "IP Helper",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "iphlpsvc",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Intersite Messaging",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "IsmServ",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Kerberos Key Distribution Center",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "Kdc",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Microsoft Key Distribution Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "KdsSvc",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "CNG Key Isolation",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "KeyIso",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "KDC Proxy Server service (KPS)",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "KPSSVC",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "KtmRm for Distributed Transaction Coordinator",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "KtmRm",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Server",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "LanmanServer",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Workstation",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "LanmanWorkstation",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Geolocation Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "lfsvc",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Windows License Manager Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "LicenseManager",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Link-Layer Topology Discovery Mapper",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "lltdsvc",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "TCP/IP NetBIOS Helper",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "lmhosts",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Local Session Manager",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "LSM",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Downloaded Maps Manager",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "MapsBroker",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "McpManagementService",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "McpManagementService",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Microsoft Defender Core Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "MDCoreSvc",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Microsoft Edge Elevation Service (MicrosoftEdgeElevationService)",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "MicrosoftEdgeElevationService",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Windows Defender Firewall",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "mpssvc",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Distributed Transaction Coordinator",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "MSDTC",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Microsoft iSCSI Initiator Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "MSiSCSI",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Windows Installer",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "msiserver",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Network Connectivity Assistant",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "NcaSvc",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Network Connection Broker",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "NcbService",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Netlogon",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "Netlogon",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Network Connections",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "Netman",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Network List Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "netprofm",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Network Setup Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "NetSetupSvc",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Net.Tcp Port Sharing Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "NetTcpPortSharing",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Microsoft Passport Container",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "NgcCtnrSvc",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Microsoft Passport",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "NgcSvc",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Network Location Awareness",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "NlaSvc",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Network Store Interface Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "nsi",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Active Directory Domain Services",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "NTDS",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "File Replication",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "NtFrs",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Program Compatibility Assistant Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "PcaSvc",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Performance Counter DLL Host",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "PerfHost",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Contact Data_21c4b1",
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "PimIndexMaintenanceSvc_21c4b1",
+        "Status": "Stopped"
+    },
+    {
+        "DisplayName": "Performance Logs & Alerts",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "pla",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Plug and Play",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "PlugPlay",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "IPsec Policy Agent",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "PolicyAgent",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Power",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "Power",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Printer Extensions and Notifications",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "PrintNotify",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "PrintWorkflow_21c4b1",
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "PrintWorkflowUserSvc_21c4b1",
+        "Status": "Stopped"
+    },
+    {
+        "DisplayName": "User Profile Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "ProfSvc",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Windows PushToInstall Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "PushToInstall",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Quality Windows Audio Video Experience",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "QWAVE",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Remote Access Auto Connection Manager",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "RasAuto",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Remote Access Connection Manager",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "RasMan",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Routing and Remote Access",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "RemoteAccess",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Remote Registry",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "RemoteRegistry",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Radio Management Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "RmSvc",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "RPC Endpoint Mapper",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "RpcEptMapper",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Remote Procedure Call (RPC) Locator",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "RpcLocator",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Remote Procedure Call (RPC)",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "RpcSs",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Resultant Set of Policy Provider",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "RSoPProv",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Special Administration Console Helper",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "sacsvr",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Security Accounts Manager",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "SamSs",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Smart Card",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "SCardSvr",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Smart Card Device Enumeration Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "ScDeviceEnum",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Task Scheduler",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "Schedule",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Smart Card Removal Policy",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "SCPolicySvc",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Secondary Logon",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "seclogon",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Windows Security Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "SecurityHealthService",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Payments and NFC/SE Manager",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "SEMgrSvc",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "System Event Notification Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "SENS",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Windows Defender Advanced Threat Protection Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "Sense",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Sensor Data Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "SensorDataService",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Sensor Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "SensorService",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Sensor Monitoring Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "SensrSvc",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Remote Desktop Configuration",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "SessionEnv",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "System Guard Runtime Monitor Broker",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "SgrmBroker",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Internet Connection Sharing (ICS)",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "SharedAccess",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Shell Hardware Detection",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "ShellHWDetection",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Shared PC Account Manager",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "shpamsvc",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Microsoft Storage Spaces SMP",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "smphost",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "SNMP Trap",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "SNMPTRAP",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Print Spooler",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "Spooler",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Software Protection",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "sppsvc",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "SSDP Discovery",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "SSDPSRV",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "OpenSSH Authentication Agent",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "ssh-agent",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "OpenSSH SSH Server",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "sshd",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Secure Socket Tunneling Protocol Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "SstpSvc",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "State Repository Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "StateRepository",
-        "Status": 1
+        "Status": "Running"
     },
     {
+        "DisplayName": "Windows Image Acquisition (WIA)",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "StiSvc",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Storage Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "StorSvc",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Spot Verifier",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "svsvc",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Microsoft Software Shadow Copy Provider",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "swprv",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "SysMain",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "SysMain",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "System Events Broker",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "SystemEventsBroker",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Touch Keyboard and Handwriting Panel Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "TabletInputService",
-        "Status": 1
+        "Status": "Running"
     },
     {
+        "DisplayName": "Telephony",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "tapisrv",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Remote Desktop Services",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "TermService",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Themes",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "Themes",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Storage Tiers Management",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "TieringEngineService",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Time Broker",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "TimeBrokerSvc",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Web Account Manager",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "TokenBroker",
-        "Status": 1
+        "Status": "Running"
     },
     {
+        "DisplayName": "Distributed Link Tracking Client",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "TrkWks",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Windows Modules Installer",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "TrustedInstaller",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Auto Time Zone Updater",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "tzautoupdate",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "User Access Logging Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "UALSVC",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Udk User Service_21c4b1",
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "UdkUserSvc_21c4b1",
+        "Status": "Stopped"
+    },
+    {
+        "DisplayName": "User Experience Virtualization Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "UevAgentService",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Remote Desktop Services UserMode Port Redirector",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "UmRdpService",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "User Data Storage_21c4b1",
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "UnistoreSvc_21c4b1",
+        "Status": "Stopped"
+    },
+    {
+        "DisplayName": "UPnP Device Host",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "upnphost",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "User Data Access_21c4b1",
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "UserDataSvc_21c4b1",
+        "Status": "Stopped"
+    },
+    {
+        "DisplayName": "User Manager",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "UserManager",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Update Orchestrator Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "UsoSvc",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Credential Manager",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "VaultSvc",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Virtual Disk",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "vds",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "VirtIO-FS Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "VirtioFsSvc",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Hyper-V Guest Service Interface",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "vmicguestinterface",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Hyper-V Heartbeat Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "vmicheartbeat",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Hyper-V Data Exchange Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "vmickvpexchange",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Hyper-V Guest Shutdown Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "vmicshutdown",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Hyper-V Time Synchronization Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "vmictimesync",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Hyper-V PowerShell Direct Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "vmicvmsession",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Hyper-V Volume Shadow Copy Requestor",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "vmicvss",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Volume Shadow Copy",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "VSS",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Windows Time",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "W32Time",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Windows Update Medic Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "WaaSMedicSvc",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "WalletService",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "WalletService",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Warp JIT Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "WarpJITSvc",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Windows Biometric Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "WbioSrvc",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Windows Connection Manager",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "Wcmsvc",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Diagnostic Service Host",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "WdiServiceHost",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Diagnostic System Host",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "WdiSystemHost",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Microsoft Defender Antivirus Network Inspection Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "WdNisSvc",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Windows Event Collector",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "Wecsvc",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Windows Encryption Provider Host Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "WEPHOSTSVC",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Problem Reports Control Panel Support",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "wercplsupport",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Windows Error Reporting Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "WerSvc",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Still Image Acquisition Events",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "WiaRpc",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Microsoft Defender Antivirus Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "WinDefend",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "WinHTTP Web Proxy Auto-Discovery Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "WinHttpAutoProxySvc",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Windows Management Instrumentation",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "Winmgmt",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Windows Remote Management (WS-Management)",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "WinRM",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Windows Insider Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "wisvc",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Microsoft Account Sign-in Assistant",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "wlidsvc",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Windows Licensing Monitoring Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "WLMS",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "WMI Performance Adapter",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "wmiApSrv",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Windows Media Player Network Sharing Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "WMPNetworkSvc",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Portable Device Enumerator Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "WPDBusEnum",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Windows Push Notifications System Service",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "WpnService",
-        "Status": 4
+        "Status": "Running"
     },
     {
+        "DisplayName": "Windows Push Notifications User Service_21c4b1",
+        "HostName": "WIN-GR5MHJM1VKA",
+        "Name": "WpnUserService_21c4b1",
+        "Status": "Running"
+    },
+    {
+        "DisplayName": "Windows Search",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "WSearch",
-        "Status": 1
+        "Status": "Stopped"
     },
     {
+        "DisplayName": "Windows Update",
         "HostName": "WIN-GR5MHJM1VKA",
         "Name": "wuauserv",
-        "Status": 1
+        "Status": "Running"
     }
 ]

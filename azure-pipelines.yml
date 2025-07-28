@@ -1,1 +1,22 @@
-# test
+trigger:
+- main
+
+pool:
+  name: 'Default'
+
+variables:
+- name: SSH_PASSWORD
+  value: $(SSH_PASSWORD)
+
+stages:
+- stage: RunAnsible
+  jobs: 
+    - job: RunPlaybookonhosts
+      steps:
+      -  script: |
+           echo: "Running Playbook"
+           ansible-playbook /home/kdsouza/Project/playbook-test.yml
+           --extra-vars "ansible_ssh_pass=$(SSH_PASSWORD)"
+         displayName: Ansible Playbook Run
+
+

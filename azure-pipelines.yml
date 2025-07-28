@@ -11,12 +11,12 @@ variables:
 stages:
 - stage: RunAnsible
   jobs: 
-    - job: RunPlaybookonhosts
+    - job: RunPlaybookOnHosts
       steps:
       -  script: |
            echo: "Running Playbook"
            ansible-playbook /home/kdsouza/Project/playbook-test.yml
-           --extra-vars "ansible_ssh_pass=$(SSH_PASSWORD)"
+           --extra-vars "ansible_ssh_pass=$(variables.SSH_PASSWORD)"
          displayName: Ansible Playbook Run
 
 

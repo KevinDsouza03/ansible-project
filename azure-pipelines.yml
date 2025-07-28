@@ -5,7 +5,7 @@ pool:
   name: 'Default'
 
 variables:
-- name: SSH_PASSWORD
+- name: pass
   value: $(SSH_PASSWORD)
 
 stages:
@@ -16,7 +16,7 @@ stages:
       -  script: |
            echo: "Running Playbook"
            ansible-playbook /home/kdsouza/Project/playbook-test.yml
-           --extra-vars "ansible_ssh_pass=$(variables.SSH_PASSWORD)"
+           --extra-vars "ansible_ssh_pass=$(variables.pass)"
          displayName: Ansible Playbook Run
 
 

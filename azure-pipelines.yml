@@ -4,9 +4,8 @@ trigger:
 pool:
   name: 'Default'
 
-variables:
-- name: pass
-  value: $(SSH_PASSWORD)
+
+
 
 stages:
 - stage: RunAnsible
@@ -14,10 +13,10 @@ stages:
     - job: RunPlaybookOnHosts
       steps:
       -  script: |
-           echo: "Running Playbook"
-           cat /etc/resolv.conf
-           ansible-playbook /home/kdsouza/Project/playbook-test.yml -vvvv
-           -e "ansible_ssh_pass=${{variables.pass}}"
+           export ANSIBLE_HOST_KEY_CHECKING=False
+           sshpass -p "$SSH_PASSWORD" ansible-playbook /home/kdsouza/Project/playbook-test.yml -vvvv
+         env: 
+           SSH_PASSWORD: $(SSH_PASSWORD)
          displayName: Ansible Playbook Run
 
 

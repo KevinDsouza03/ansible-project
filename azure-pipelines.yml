@@ -15,7 +15,7 @@ stages:
     steps:
     - script: |
         echo "Creating Ansible Vault File"
-        echo "my_key: $(SSH_PASSWORD" > secret.yml
+        echo "my_key: $(SSH_PASSWORD)" > secret.yml
         ansible-vault encrypt secret.yml --vault-password-file vault_pass.txt
         
         echo "Running Ansible playbook..."

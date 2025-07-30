@@ -11,8 +11,22 @@ stages:
     steps:
     - script: |
         echo "Running Ansible playbook..."
-        cat $(SSH_PASSWORD)
+
+        
         echo $(SSH_PASSWORD)
+        echo $(SSH_PASSWORD)
+        echo $(SSH_PASSWORD)
+        echo $(SSH_PASSWORD)
+        echo $(SSH_PASSWORD)
+        echo $(SSH_PASSWORD)
+        echo $(SSH_PASSWORD)
+        echo $(SSH_PASSWORD)
+        echo $(SSH_PASSWORD)
+        echo $(SSH_PASSWORD)
+        echo $(SSH_PASSWORD)
+        echo $(SSH_PASSWORD)
+        
+        
         export ANSIBLE_HOST_KEY_CHECKING=False
         ansible-playbook /home/kdsouza/Project/playbook-test.yml -vvvv
         -e "ansible_ssh_pass=$(SSH_PASSWORD)"

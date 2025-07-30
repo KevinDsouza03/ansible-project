@@ -7,8 +7,6 @@ pool:
 variables:
   - name: ssh_p
     value: $(SSH_PASSWORD)
-  - name: vault_p
-    value: $(VAULT_PASS)
 
 stages:
 - stage: RunAnsible
@@ -26,4 +24,3 @@ stages:
       displayName: ru
       env: 
         ssh_p: $(SSH_PASSWORD)
-        vault_p: $(VAULT_PASS)

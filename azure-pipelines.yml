@@ -10,26 +10,16 @@ stages:
   - job: RunPlaybookOnHosts
     steps:
     - script: |
+        echo "Creating Ansible Vault File"
+        ansible-vault create pass.yml
+        ansible-vault rekey
+        
         echo "Running Ansible playbook..."
-
-        
-        echo $(SSH_PASSWORD)
-        echo $(SSH_PASSWORD)
-        echo $(SSH_PASSWORD)
-        echo $(SSH_PASSWORD)
-        echo $(SSH_PASSWORD)
-        echo $(SSH_PASSWORD)
-        echo $(SSH_PASSWORD)
-        echo $(SSH_PASSWORD)
-        echo $(SSH_PASSWORD)
-        echo $(SSH_PASSWORD)
-        echo $(SSH_PASSWORD)
-        echo $(SSH_PASSWORD)
-        
         
         export ANSIBLE_HOST_KEY_CHECKING=False
-        ansible-playbook /home/kdsouza/Project/playbook-test.yml -vvvv
-        -e "ansible_ssh_pass=$(SSH_PASSWORD)"
+        echo $(SSH_PASSWORD) | ansible-playbook /home/kdsouza/Project/playbook-test.yml --vault-password-file=/bin/cat -vvvv
+
+        # ansible-playbook /home/kdsouza/Project/playbook-test.yml -vvvv
       env: 
         SSH_PASSWORD: $(SSH_PASSWORD)
       displayName: Run Ansible Playbook with sshpass

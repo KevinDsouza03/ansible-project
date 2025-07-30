@@ -2,11 +2,13 @@ trigger:
 - main
 
 pool:
-  name: 'Default'
+  name: 'Default'  # or your custom agent pool
 
 variables:
   - name: ssh_password
     value: $(SSH_PASSWORD)
+  - name: vault_pass
+    value: $(VAULT_PASS)
 
 stages:
 - stage: RunAnsible
@@ -14,19 +16,19 @@ stages:
   - job: RunPlaybookOnHosts
     steps:
     - script: |
-        echo "Creating Ansible Vault File"
+        echo "Creating Ansible Vault password file..."
+        echo "$VAULT_PASS" > vault_pass.txt
 
-        # Write secret to YAML in-memory using env var
+        echo " Writing secret YAML file with SSH password..."
         echo "my_key: $SSH_PASSWORD" > secret.yml
 
-        # Encrypt with Ansible Vault
+        echo " Encrypting with Ansible Vault..."
         ansible-vault encrypt secret.yml --vault-password-file vault_pass.txt
 
-        echo "Running Ansible playbook..."
+        echo " Running Ansible Playbook..."
         export ANSIBLE_HOST_KEY_CHECKING=False
-
-        # Use the vaulted secret
         ansible-playbook /home/kdsouza/Project/playbook-test.yml --vault-password-file vault_pass.txt -vvvv
-      displayName: Run Ansible Playbook
+      displayName: Encrypt secret & run playbook
       env: 
         SSH_PASSWORD: $(SSH_PASSWORD)
+        VAULT_PASS: $(VAULT_PASS)

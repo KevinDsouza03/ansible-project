@@ -15,6 +15,7 @@ stages:
       steps:
       -  script: |
            echo: "Running Playbook"
+           cat /etc/resolv.conf
            ansible-playbook /home/kdsouza/Project/playbook-test.yml -vvvv
            -e "ansible_ssh_pass=${{variables.pass}}"
          displayName: Ansible Playbook Run

@@ -15,15 +15,18 @@ stages:
     steps:
     - script: |
         echo "Creating Ansible Vault File"
-        echo "my_key: $(SSH_PASSWORD)" > secret.yml
-        ansible-vault encrypt secret.yml --vault-password-file vault_pass.txt
-        
-        echo "Running Ansible playbook..."
-        
-        export ANSIBLE_HOST_KEY_CHECKING=False
-        ansible-playbook /home/kdsouza/Project/playbook-test.yml --vault-password-file vault_pass.txt -vvvv
 
-        # ansible-playbook /home/kdsouza/Project/playbook-test.yml -vvvv
+        # Write secret to YAML in-memory using env var
+        echo "my_key: $SSH_PASSWORD" > secret.yml
+
+        # Encrypt with Ansible Vault
+        ansible-vault encrypt secret.yml --vault-password-file vault_pass.txt
+
+        echo "Running Ansible playbook..."
+        export ANSIBLE_HOST_KEY_CHECKING=False
+
+        # Use the vaulted secret
+        ansible-playbook /home/kdsouza/Project/playbook-test.yml --vault-password-file vault_pass.txt -vvvv
+      displayName: Run Ansible Playbook
       env: 
         SSH_PASSWORD: $(SSH_PASSWORD)
-      displayName: Run Ansible Playbook

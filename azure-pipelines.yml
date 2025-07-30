@@ -1,6 +1,6 @@
 trigger:
 - main
-
+#            -e "ansible_ssh_pass=${{variables.pass}}"
 pool:
   name: 'Default'
 
@@ -18,7 +18,6 @@ stages:
            ping test.com -c 5
            ping 192.168.122.45 -c 5
            ansible-playbook /home/kdsouza/Project/playbook-test.yml -vvvv
-           -e "ansible_ssh_pass=${{variables.pass}}"
          displayName: Ansible Playbook Run
 
 

@@ -5,9 +5,9 @@ pool:
   name: 'Default'  # or your custom agent pool
 
 variables:
-  - name: ssh_password
+  - name: ssh_p
     value: $(SSH_PASSWORD)
-  - name: vault_pass
+  - name: vault_p
     value: $(VAULT_PASS)
 
 stages:
@@ -25,5 +25,5 @@ stages:
         ansible-playbook /home/kdsouza/Project/playbook-test.yml --e "ansible_ssh_pass=$(SSH_PASSWORD)" -vvvv
       displayName: ru
       env: 
-        SSH_PASSWORD: $(SSH_PASSWORD)
-        VAULT_PASS: $(VAULT_PASS)
+        ssh_p: $(SSH_PASSWORD)
+        vault_p: $(VAULT_PASS)

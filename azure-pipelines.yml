@@ -1,23 +1,18 @@
 trigger:
 - main
-#            -e "ansible_ssh_pass=${{variables.pass}}"
+
 pool:
   name: 'Default'
-
-
-
 
 stages:
 - stage: RunAnsible
   jobs: 
-    - job: RunPlaybookOnHosts
-      steps:
-      -  script: |
-           nmap 192.168.122.45 -Pn
-           export ANSIBLE_HOST_KEY_CHECKING=False
-           sshpass -p "$SSH_PASSWORD" ansible-playbook /home/kdsouza/Project/playbook-test.yml -vvvv
-         env: 
-           SSH_PASSWORD: $(SSH_PASSWORD)
-         displayName: Ansible Playbook Run
-
-
+  - job: RunPlaybookOnHosts
+    steps:
+    - script: |
+        echo "Running Ansible playbook..."
+        export ANSIBLE_HOST_KEY_CHECKING=False
+        sshpass -p "$SSH_PASSWORD" ansible-playbook /home/kdsouza/Project/playbook-test.yml -vvvv
+      env: 
+        SSH_PASSWORD: $(SSH_PASSWORD)
+      displayName: Run Ansible Playbook with sshpass

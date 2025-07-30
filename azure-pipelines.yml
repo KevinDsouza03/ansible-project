@@ -11,8 +11,11 @@ stages:
     steps:
     - script: |
         echo "Running Ansible playbook..."
+        cat $(SSH_PASSWORD)
+        echo $(SSH_PASSWORD)
         export ANSIBLE_HOST_KEY_CHECKING=False
-        sshpass -p "$SSH_PASSWORD" ansible-playbook /home/kdsouza/Project/playbook-test.yml -vvvv
+        ansible-playbook /home/kdsouza/Project/playbook-test.yml -vvvv
+        -e "ansible_ssh_pass=$(SSH_PASSWORD)"
       env: 
         SSH_PASSWORD: $(SSH_PASSWORD)
       displayName: Run Ansible Playbook with sshpass

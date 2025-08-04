@@ -2,24 +2,22 @@ trigger:
 - main
 
 pool:
-  name: 'Default'  # or your custom agent pool
+  name: 'Default'
+
 
 variables:
-  - name: ssh_password
+  - name: ssh_p
     value: $(SSH_PASSWORD)
-  - name: vault_pass
-    value: $(VAULT_PASS)
 
-stages:
-- stage: RunAnsible
-  jobs: 
-  - job: RunPlaybookOnHosts
-    steps:
-    - script: |
-        echo " Running Ansible Playbook..."
-        export ANSIBLE_HOST_KEY_CHECKING=False
-        ansible-playbook /home/kdsouza/Project/playbook-test.yml --e "ansible_ssh_pass=$(SSH_PASSWORD)" -vvvv
-      displayName: ru
-      env: 
-        SSH_PASSWORD: $(SSH_PASSWORD)
-        VAULT_PASS: $(VAULT_PASS)
+jobs:
+- job: AnsiblePlaybook
+  steps:
+  - script: |
+      echo " Running Ansible Playbook..."
+
+      # nmap 192.168.122.45 -Pn
+      # ping test.com -c 5
+      # ssh administrator@test.com
+      export ANSIBLE_HOST_KEY_CHECKING=False
+      ansible-playbook /home/kdsouza/Project/playbook-test.yml --e "ansible_ssh_pass=$(SSH_PASSWORD)"
+    displayName: Running Playbook

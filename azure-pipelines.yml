@@ -8,7 +8,10 @@ parameters:
   - name: hostname
     type: string
     default: "127.0.0.1"
-
+  - name: os
+    type: string
+    default: "windows"
+    
 variables:
   - name: ssh_p
     value: $(SSH_PASSWORD)
@@ -21,7 +24,8 @@ stages:
     - script: echo "Message ${{ parameters.hostname}}"
       displayName: 'Echo api message'
 
-    - script: |
+    - ${{ if eq(parameters.os, 'windows') }}: # same as below msg
+      - script: |
           echo "[windows]" >> inventory.ini
           echo "${{ parameters.hostname }}" >> inventory.ini
 
@@ -29,8 +33,19 @@ stages:
           echo "ansible_user= administrator" >> inventory.ini
           echo "ansible_port= 22" >> inventory.ini
           echo "ansible_connection= ssh" >> inventory.ini
-          # In my case, this is all i need
-      displayName: 'Generate Ansible Inventory'
+        displayName: 'Generate Windows Ansible Inventory'
+
+    - ${{ if eq(parameters.os, 'rhel') }}: #ideally put this into a text file rhel-config or in azure vars
+      - script: |
+          echo "[linux]" >> inventory.ini
+          echo "${{ parameters.hostname }}" >> inventory.ini
+
+          echo "[linux:vars]" >> inventory.ini
+          echo "ansible_user= administrator" >> inventory.ini
+          echo "ansible_port= 22" >> inventory.ini
+          echo "ansible_connection= ssh" >> inventory.ini
+        displayName: 'Generate Linux Ansible Inventory'
+
 
     - script: |
           cat inventory.ini
@@ -48,7 +63,8 @@ stages:
         # ping test.com -c 5
         # ssh administrator@test.com
         export ANSIBLE_HOST_KEY_CHECKING=False
-        ansible-playbook /home/kdsouza/Project/playbook-test.yml --e "ansible_ssh_pass=$(SSH_PASSWORD) -i inventory.ini -vvvv"
+        ansible-playbook /home/kdsouza/Project/playbook-test.yml -i 
+        /home/kdsouza/myagent/_work/1/s/inventory.ini -vvvv" --e "ansible_ssh_pass=$(SSH_PASSWORD) 
       displayName: Running Playbook
 
 

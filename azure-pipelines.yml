@@ -63,8 +63,7 @@ stages:
         # ping test.com -c 5
         # ssh administrator@test.com
         export ANSIBLE_HOST_KEY_CHECKING=False
-        ansible-playbook /home/kdsouza/Project/playbook-test.yml -i 
-        /home/kdsouza/myagent/_work/1/s/inventory.ini -vvvv" --e "ansible_ssh_pass=$(SSH_PASSWORD) 
+        ansible-playbook /home/kdsouza/Project/playbook-test.yml -i inventory.ini -vvvv" --e "ansible_ssh_pass=$(SSH_PASSWORD) 
       displayName: Running Playbook
 
 

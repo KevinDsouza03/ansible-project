@@ -23,10 +23,10 @@ jobs:
         echo "[windows]" >> inventory.ini
         echo "${{ parameters.hostname }}" >> inventory.ini
 
-        # echo "[windows:vars]" >> inventory.ini
-        # echo "ansible_user= administrator" >> inventory.ini
-        # echo "ansible_port= 22" >> inventory.ini
-        # echo "ansible_connection= ssh" >> inventory.ini
+        echo "[windows:vars]" >> inventory.ini
+        echo "ansible_user= administrator" >> inventory.ini
+        echo "ansible_port= 22" >> inventory.ini
+        echo "ansible_connection= ssh" >> inventory.ini
         # In my case, this is all i need
     displayName: 'Generate Ansible Inventory'
 
@@ -45,6 +45,6 @@ jobs:
       # ping test.com -c 5
       # ssh administrator@test.com
       export ANSIBLE_HOST_KEY_CHECKING=False
-      ansible-playbook /home/kdsouza/Project/playbook-test.yml --e "ansible_ssh_pass=$(SSH_PASSWORD)"
+      ansible-playbook /home/kdsouza/Project/playbook-test.yml --e "ansible_ssh_pass=$(SSH_PASSWORD) -i inventory.ini"
     displayName: Running Playbook
 

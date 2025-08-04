@@ -5,9 +5,9 @@ pool:
   name: 'Default'
 
 parameters:
-  - name: message
+  - name: hostname
     type: string
-    default: "Hello from Azure DevOps"
+    default: "127.0.0.1"
 
 variables:
   - name: ssh_p
@@ -16,22 +16,23 @@ variables:
 jobs:
 - job: PopulateInventory
   steps: 
-  - script: echo "Message ${{ parameters.message}}"
+  - script: echo "Message ${{ parameters.hostname}}"
     displayName: 'Echo api message'
 
   - script: |
         echo "[windows]" >> inventory.ini
-        echo "${{ parameters.message }}" >> inventory.ini
+        echo "${{ parameters.hostname }}" >> inventory.ini
 
-        echo "[windows:vars]" >> inventory.ini
-        echo "ansible_user= administrator" >> inventory.ini
-        echo "ansible_port= 22" >> inventory.ini
-        echo "ansible_connection= ssh" >> inventory.ini
+        # echo "[windows:vars]" >> inventory.ini
+        # echo "ansible_user= administrator" >> inventory.ini
+        # echo "ansible_port= 22" >> inventory.ini
+        # echo "ansible_connection= ssh" >> inventory.ini
         # In my case, this is all i need
     displayName: 'Generate Ansible Inventory'
 
   - script: |
         cat inventory.ini
+        pwd
     displayName: 'Display Inventory File'
 
 

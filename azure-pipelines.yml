@@ -19,9 +19,8 @@ variables:
 stages:
 - stage: CreateInventory
   jobs:
-  - job: WriteToInventory
+  - job: 'WriteToInventory'
     steps: 
-    - script: echo "Message ${{ parameters.hostname}}"
 
     - ${{ if eq(parameters.os, 'windows') }}:
       - script: |
@@ -32,7 +31,7 @@ stages:
           echo "ansible_port= 22" >> inventory.ini
           echo "ansible_connection= ssh" >> inventory.ini
           echo "ansible_shell_type=cmd" >> inventory.ini
-
+        displayName: 'Creating Windows Inv'
     - ${{ if eq(parameters.os, 'rhel') }}:
       - script: |
           echo "[linux]" >> inventory.ini
@@ -41,7 +40,7 @@ stages:
           echo "ansible_user= administrator" >> inventory.ini
           echo "ansible_port= 22" >> inventory.ini
           echo "ansible_connection= ssh" >> inventory.ini
-
+        displayName: 'Creating RHEL Inv'
     - task: PublishPipelineArtifact@1
       inputs:
         targetPath: 'inventory.ini'

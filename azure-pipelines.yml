@@ -22,50 +22,50 @@ stages:
   - job: WriteToInventory
     steps: 
     - script: echo "Message ${{ parameters.hostname}}"
-      displayName: 'Echo api message'
 
-    - ${{ if eq(parameters.os, 'windows') }}: # same as below msg
+    - ${{ if eq(parameters.os, 'windows') }}:
       - script: |
           echo "[windows]" >> inventory.ini
           echo "${{ parameters.hostname }}" >> inventory.ini
-
           echo "[windows:vars]" >> inventory.ini
           echo "ansible_user= administrator" >> inventory.ini
           echo "ansible_port= 22" >> inventory.ini
           echo "ansible_connection= ssh" >> inventory.ini
-        displayName: 'Generate Windows Ansible Inventory'
 
-    - ${{ if eq(parameters.os, 'rhel') }}: #ideally put this into a text file rhel-config or in azure vars
+    - ${{ if eq(parameters.os, 'rhel') }}:
       - script: |
           echo "[linux]" >> inventory.ini
           echo "${{ parameters.hostname }}" >> inventory.ini
-
           echo "[linux:vars]" >> inventory.ini
           echo "ansible_user= administrator" >> inventory.ini
           echo "ansible_port= 22" >> inventory.ini
           echo "ansible_connection= ssh" >> inventory.ini
-        displayName: 'Generate RHEL Ansible Inventory'
 
+    - task: PublishPipelineArtifact@1
+      inputs:
+        targetPath: 'inventory.ini'
+        artifact: 'inventory'
+      displayName: 'Publish inventory.ini as artifact'
 
-    - script: |
-          cat inventory.ini
-          pwd
-      displayName: 'Display Inventory File'
 
 - stage: RunPlaybook
   jobs:
   - job: AnsiblePlaybook
     steps:
+    - task: DownloadPipelineArtifact@2
+      inputs:
+        artifact: 'inventory'
+        path: '$(Pipeline.Workspace)'
+      displayName: 'Download inventory.ini artifact'
+
     - script: |
-        echo " Running Ansible Playbook..."
+        echo "Printing inventory file"
+        cat "$(Pipeline.Workspace)/inventory.ini"
 
-        # nmap 192.168.122.45 -Pn
-        # ping test.com -c 5
-        # ssh administrator@test.com
-
-        #Currently, this runs the playbook but not depending on the type of host. I need to change my playbook to run according to host type.
+    - script: |
         export ANSIBLE_HOST_KEY_CHECKING=False
-        ansible-playbook /home/kdsouza/Project/playbook-test.yml  --e "ansible_ssh_pass=$(SSH_PASSWORD)"
-      displayName: Running Playbook
+        ansible-playbook /home/kdsouza/Project/playbook-test.yml --e "ansible_ssh_pass=$(SSH_PASSWORD)"
+      displayName: 'Running Playbook'
+
 
 

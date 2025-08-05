@@ -31,6 +31,7 @@ stages:
           echo "ansible_user= administrator" >> inventory.ini
           echo "ansible_port= 22" >> inventory.ini
           echo "ansible_connection= ssh" >> inventory.ini
+          echo "ansible_shell_type=cmd" >> inventory.ini
 
     - ${{ if eq(parameters.os, 'rhel') }}:
       - script: |

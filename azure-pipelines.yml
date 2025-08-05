@@ -44,7 +44,7 @@ stages:
           echo "ansible_user= administrator" >> inventory.ini
           echo "ansible_port= 22" >> inventory.ini
           echo "ansible_connection= ssh" >> inventory.ini
-        displayName: 'Generate Linux Ansible Inventory'
+        displayName: 'Generate RHEL Ansible Inventory'
 
 
     - script: |
@@ -62,6 +62,8 @@ stages:
         # nmap 192.168.122.45 -Pn
         # ping test.com -c 5
         # ssh administrator@test.com
+
+        #Currently, this runs the playbook but not depending on the type of host. I need to change my playbook to run according to host type.
         export ANSIBLE_HOST_KEY_CHECKING=False
         ansible-playbook /home/kdsouza/Project/playbook-test.yml  --e "ansible_ssh_pass=$(SSH_PASSWORD)"
       displayName: Running Playbook

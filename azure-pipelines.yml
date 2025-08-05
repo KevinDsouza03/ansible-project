@@ -17,7 +17,42 @@ variables:
     value: $(SSH_PASSWORD)
 
 stages:
-- stage: CreateInventory
+# - stage: CreateInventory
+  # jobs:
+  # - job: WriteToInventory
+  #   steps: 
+  #   - script: echo "Message ${{ parameters.hostname}}"
+  #     displayName: 'Echo api message'
+
+  #   - ${{ if eq(parameters.os, 'windows') }}: # same as below msg
+  #     - script: |
+  #         echo "[windows]" >> inventory.ini
+  #         echo "${{ parameters.hostname }}" >> inventory.ini
+
+  #         echo "[windows:vars]" >> inventory.ini
+  #         echo "ansible_user= administrator" >> inventory.ini
+  #         echo "ansible_port= 22" >> inventory.ini
+  #         echo "ansible_connection= ssh" >> inventory.ini
+  #       displayName: 'Generate Windows Ansible Inventory'
+
+  #   - ${{ if eq(parameters.os, 'rhel') }}: #ideally put this into a text file rhel-config or in azure vars
+  #     - script: |
+  #         echo "[linux]" >> inventory.ini
+  #         echo "${{ parameters.hostname }}" >> inventory.ini
+
+  #         echo "[linux:vars]" >> inventory.ini
+  #         echo "ansible_user= administrator" >> inventory.ini
+  #         echo "ansible_port= 22" >> inventory.ini
+  #         echo "ansible_connection= ssh" >> inventory.ini
+  #       displayName: 'Generate RHEL Ansible Inventory'
+
+
+  #   - script: |
+  #         cat inventory.ini
+  #         pwd
+  #     displayName: 'Display Inventory File'
+
+- stage: RunPlaybook
   jobs:
   - job: WriteToInventory
     steps: 
@@ -51,9 +86,6 @@ stages:
           cat inventory.ini
           pwd
       displayName: 'Display Inventory File'
-
-- stage: RunPlaybook
-  jobs:
   - job: AnsiblePlaybook
     steps:
     - script: |
